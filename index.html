@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Fomulário de Cadastro</h2>
+            <form action="" method="post" name="cadastro_aluno" id="cadastro_aluno">
+                <label for="nome_aluno">Nome do aluno:</label><br>
+                <input type="text" name="nome_aluno" size="50px">
+                <br><br>
+                <label for="cpf">CPF:</label><br>
+                <input type="text" name="cpf" id="cpf" size="50px">
+                <br><br>
+                <label for="rg">Registro Geral:</label><br>
+                <input type="text" name="rg" id="rg" size="50px">
+                <br><br>
+                <label for="endereço">Endereço:</label><br>
+                <input type="text" name="endereco" id="endereco" size="50px">
+                <br><br>
+                <label for="cpf">Gênero:</label><br>
+                <input type="radio" name="genero" id="masculino" value="Masculino">Masculino
+                <input type="radio" name="genero" id="feminino" value="Feminino">Feminino
+                <br><br>
+                <label for="disciplinas">Disciplinas à Cursar</label><br>
+                <input type="checkbox" name="disciplinas" value="Banco_de_Dados">Banco de Dados
+                <input type="checkbox" name="disciplinas" value="Algoritmos">Algoritmos
+                <input type="checkbox" name="disciplinas" value="Novas_Tecnologias">Novas Tecnologias
+                <input type="checkbox" name="disciplinas" value="Sistemas_Operacionais">Sistemas Operacionais
+                <br><br>
+                <label for="semestre">Em qual semestre deseja matricular:</label><br>
+                <select name="semestre" id="semestre">
+                    <option value="1semestre">1º Semestre</option>
+                    <option value="2semestre">2º Semestre</option>
+                    <option value="3semestre">3º Semestre</option>
+                    <option value="4semestre">4º Semestre</option>
+                    <option value="5semestre">5º Semestre</option>
+                    <option value="6semestre">6º Semestre</option>
+                </select>
+                <br><br>
+                <label for="observacoes">Observações:</label><br>  
+                <textarea name="observacoes" id="observacoes" rows="5" cols="50"></textarea>
+                <br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" name="senha" id="senha">       
+            </form>
+        </section>
+    </main>
+</body>
+</html>
